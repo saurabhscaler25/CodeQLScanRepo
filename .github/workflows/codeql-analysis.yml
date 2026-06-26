@@ -15,7 +15,7 @@ on:
 jobs:
   analyze:
     name: Analyze Code 
-    runner: ubuntu-latest
+    runs-on: ubuntu-latest
     permissions:
       security-events: write
       contents: read
